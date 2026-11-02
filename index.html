@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seumas Apps</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --accent: #2196f3; --card: #f5f7fa; --rule: #e0e0e0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #000000; --fg: #e8eaed; --muted: #9aa0a6; --accent: #64b5f6; --card: #121212; --rule: #2a2a2a; }
+  }
+  body { background: var(--bg); color: var(--fg); margin: 0;
+         font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0; }
+  .tag { color: var(--muted); margin: 4px 0 32px; }
+  .card { background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 20px; margin: 16px 0; }
+  .card h2 { margin: 0 0 6px; font-size: 1.2rem; }
+  .card p { margin: 6px 0; }
+  .status { display: inline-block; font-size: 0.85rem; color: var(--muted); }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Seumas Apps</h1>
+  <p class="tag">Small, local-first tools that respect your privacy.</p>
+
+  <div class="card">
+    <h2>Yata</h2>
+    <span class="status">Android &middot; coming soon to Google Play</span>
+    <p>Offline speech-to-speech translator. Tap your language, speak, and hear it in the other language. Translation runs on your phone.</p>
+    <p><a href="yata/privacy/">Privacy policy</a></p>
+  </div>
+
+  <div class="card">
+    <h2>Open-source projects</h2>
+    <p>Other tools and experiments live on GitHub.</p>
+    <p><a href="https://github.com/shaybee22">github.com/shaybee22</a></p>
+  </div>
+
+  <footer>Contact: <a href="mailto:apps@seumas.org">apps@seumas.org</a></footer>
+</main>
+</body>
+</html>
